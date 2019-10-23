@@ -1,0 +1,121 @@
+:root {
+
+
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}
+
+/*Navbar Styling*/
+.navbaritems a {
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  font-size: 0.8rem;
+
+}
+
+.flex1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex3 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icons {
+  padding-left: 10px;
+}
+
+.firstNav {
+  border-bottom: 0.5px solid rgb(245, 239, 239);
+  padding: 5px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+select {
+  border: none;
+  font-size: 0.7rem;
+}
+.bordered {
+  border: 1px black solid;
+}
+.bouncer {
+  margin: 0 auto;
+  display: block;
+}
+
+.bouncerDiv {
+  padding: 40.6px 0 47.6px 0;
+
+}
+
+.divIcons {
+  width: 40%
+}
+
+.navbaritems {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  
+}
+.navbaritems li {
+  text-decoration: none;
+}
+
+.navbaritems li:active {
+  color: blue
+}
+
+/*header styling*/
+
+/*Sample Products styling*/
+
+.img1 {
+  position: relative;
+  bottom: 130px;
+}
+
+.img2 {
+  position: relative;
+  right: -10px;
+  top: -40px;
+ 
+}
+
+.img3 {
+  position: relative;
+  bottom: 100px;
+  left: 130px;
+}
+.product1 {
+  width: 220px;
+}
+.product2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: -100px;
+}
+
+.product3 {
+  width: 154px;
+}
